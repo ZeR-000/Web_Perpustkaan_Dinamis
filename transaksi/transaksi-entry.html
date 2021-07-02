@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pratikum Web 2021</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <style type="text/css">
+        input {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2>PERPUSTAKAAN MALANG JAWA TIMUR</h2>
+    </div>
+
+    <div class="nav">
+        <p>Jadwal Buka : Senin - Kamis (08.00 - 16.00) &Jum'at - Sabtu (08.00 - 13.00)</p>
+    </div>
+
+    <div class="samping">
+        <ul>
+            <br><br><br>
+            <a href="../admin.php">HOME</a>
+            <br><br><br>
+            <a href="transaksi.php">KEMBALI</a>
+        </ul>
+    </div>
+
+    <div class="isi">
+        <center>
+            <h3>Tambah Transaksi Peminjaman</h3>
+            <form action="transaksi-proses.php" method="POST">
+                <table>
+                    <tr>
+                        <td>Nama Peminjam</td>
+                        <td>:</td>
+                        <td><input type="text" name="peminjam"></td>
+                    </tr>
+                    <tr>
+                        <td>Buku</td>
+                        <td>:</td>
+                        <td><input type="text" name="buku"></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Pinjam</td>
+                        <td>:</td>
+                        <td><input type="text" name="tgl_pinjam"></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Kembali</td>
+                        <td>:</td>
+                        <td><input type="text" name="tgl_kembali"></td>
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td>:</td>
+                        <td><input type="text" name="status" value="Dipinjam" readonly></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><input type="submit" name="tambah" value="TAMBAH"></td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </div>
+
+    <div class="footer">
+        <h4>&copy; Lab. Pemrograman & Rekayasa Perangkat Lunak 2021</h4>
+    </div>
+
+</body>
+
+</html>

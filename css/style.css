@@ -1,0 +1,54 @@
+body {
+	margin-left: 8%;
+	margin-top: 20px;
+	background-color: white;
+	margin-right: 8%;
+}
+body, .header, .nav, .samping, .isi, footer{
+    border: 1px solid white;
+}
+.header{
+	width: 100%;
+	padding: 2px 0px 2px 0px;
+	background-color: #0e0c28;
+	text-align: center;
+	color: white;
+}
+.header h3{
+	font-style: italic;	
+}
+.nav{
+	width: 100%;
+	text-align: center;
+	color: black;
+	background-color: #eeeddd;
+	height: 50px;
+}
+.samping {
+	float: left;
+	height: 350px;
+	width: 19%;
+    color: black;
+	text-decoration: none;
+    background-color: #eeeddd;
+}
+.samping a{
+	color: black;
+	text-decoration: none;
+}
+
+.isi{
+	float: center;
+	height: 350px;
+	color: black;
+	background-color: #eeeddd;
+	padding-left: 14px;
+	width: 99%;
+}
+.footer{
+	background-color: #0e0c28;
+	color: white;
+	text-align: center;
+	width: 100%;
+	clear: both;
+}
